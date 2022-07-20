@@ -112,7 +112,16 @@ body {
     color: white;
     font-size: 20px;
 }
+.main-nav .blog{
+    border: 3px solid rgba(16, 163, 212, 0.959);
+    background-color: white;
 
+}
+.main-nav .blog a{
+    color: #020f2a;
+    font-weight: 600;
+
+}
 .main-nav li:hover {
     border: 3px solid rgba(16, 163, 212, 0.959);
     background-color: white;
