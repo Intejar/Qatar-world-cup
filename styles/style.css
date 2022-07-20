@@ -293,18 +293,27 @@ body {
         padding: 2% 5%;
 
     }
+    .live-button:hover {
+        background-color: #020f2a;
+        color: white;
+        padding: 4px 20px;
+        border-radius: 10px;
+        border: 3px solid rgba(16, 163, 212, 0.959);
+    }
+    
+    .live-button:hover .fa-circle-arrow-right {
+        transform: translate(10px);
+        transition: 1s;
+    }
 
     .banner-img{
         display: flex;
         width: 80%;
-        margin-left: 5%;
+        margin-left: 15%;
     }
     .banner-img img{
         height: 300px;
         width: 300px;
-    }
-    .live-button:hover {
-        display: none;
     }
     .main-sec{
         display: block;
@@ -347,6 +356,8 @@ body {
     .main-nav li a:hover{
         color:#020f2a;
         background-color: white;
+        border: 3px solid rgba(16, 163, 212, 0.959);
+
     }
     .upcoming-match{
         display: grid;
@@ -376,9 +387,18 @@ body {
         padding-left: 35%;
     }
     .social {
-        font-size: 15px;
+        font-size: 20px;
         padding-left: 10%;
         padding-bottom: 10%;
 
+    }
+    .social ul li:hover {
+        border: 2px solid rgba(16, 163, 212, 0.959);
+        background-color: white;
+        border-radius: 5px;
+        padding: 0 10px;
+    }
+    .social ul li:hover span{
+        width: 50%;
     }
 }

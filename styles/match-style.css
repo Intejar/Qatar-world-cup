@@ -232,3 +232,152 @@ body {
     font-weight: 600;
 }
 
+
+@media screen and (max-width: 688px) {
+    .header{
+        width: 100%;
+        display: block;
+        height: fit-content;
+        margin: 0;
+        border-radius: 20px;
+    }
+    .content{
+        text-align: center;
+        margin: 0;
+        width: 80%;
+        padding: 10%;
+    }
+    .content h1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .content p{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .live-button{
+        font-size: 15px;
+        font-weight: 400;
+        padding: 2% 5%;
+
+    }
+    .live-button:hover {
+        background-color: #020f2a;
+        color: white;
+        padding: 4px 20px;
+        border-radius: 10px;
+        border: 3px solid rgba(16, 163, 212, 0.959);
+    }
+    
+    .live-button:hover .fa-circle-arrow-right {
+        transform: translate(10px);
+        transition: 1s;
+    }
+
+    .banner-img{
+        display: flex;
+        width: 80%;
+        margin-left: 15%;
+    }
+    .banner-img img{
+        height: 300px;
+        width: 300px;
+    }
+    .main-sec{
+        display: block;
+        width: 80%;
+        height: fit-content;
+        margin: 0;
+        align-items: center;
+        column-gap: 0;
+        margin-bottom: 10%;
+    }
+    .nav{
+        width: 100%;
+        background-color: white;
+        margin-right: 0;
+        padding-top: 20px;
+        padding-left: 20px;
+
+    }
+
+    .main-nav li {
+        background-color: white;
+        text-align: center;
+        padding: 0;
+        border: 0px solid rgba(6, 65, 85, 0.959);
+        border-radius: 0px;
+    }
+    .main-nav li a{
+        color: white;
+        background-color: rgb(19, 51, 77);
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid rgba(6, 65, 85, 0.959);
+
+
+    }
+    .main-nav li:hover {
+        border: 0px solid rgba(16, 163, 212, 0.959);
+        background-color: white;
+    }
+    .main-nav li a:hover{
+        color:#020f2a;
+        background-color: white;
+        border: 3px solid rgba(16, 163, 212, 0.959);
+
+    }
+    .main-nav .match{
+        border: 0px solid rgba(16, 163, 212, 0.959);
+        background-color: white;
+    
+    }
+    .main-nav .match a{
+        border: 3px solid rgba(16, 163, 212, 0.959);
+        background-color: white;
+    
+    }
+    .upcoming-match{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0;
+        row-gap: 10px;
+
+    }        
+    .team-info {
+        width: 200px;
+        height: 340px;
+        border: 1px solid #0a389c;
+        border-radius: 10px;
+        width: 80%;
+        margin-left: 60px;
+    }
+    .footer{
+        width: 100%;
+        height: fit-content;
+    }
+    .footer-info ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 20px;
+        list-style: none;
+        column-gap: 0px;
+        row-gap: 10px;
+        padding-left: 35%;
+    }
+    .social {
+        font-size: 20px;
+        padding-left: 10%;
+        padding-bottom: 10%;
+
+    }
+    .social ul li:hover {
+        border: 2px solid rgba(16, 163, 212, 0.959);
+        background-color: white;
+        border-radius: 5px;
+        padding: 0 10px;
+    }
+    .social ul li:hover span{
+        width: 50%;
+    }
+}
