@@ -137,11 +137,6 @@ body {
     column-gap: 10px;
     row-gap: 20px;
 }
-/* .team{
-    height: 350px;
-
-} */
-
 .team-info {
     width: 250px;
     height: 320px;
@@ -200,7 +195,9 @@ body {
     border: 3px solid rgba(16, 163, 212, 0.959);
 }
 
-/* Footer Style  */
+/* ------------------------------------------------------
+                        Footer Style
+--------------------------------------------------------  */
 
 .footer{
     width: 100%;
@@ -244,6 +241,7 @@ body {
     background-color: white;
     border-radius: 10px;
     padding: 0 10px;
+    font-size: medium;
 }
 .social ul li:hover a{
     color: #020f2a;
@@ -403,10 +401,10 @@ body {
         background-color: white;
         border-radius: 5px;
         padding: 0 10px;
+        font-size: medium;
+
     }
-    .social ul li:hover span{
-        width: 50%;
-    }
+    
 }
 
 /* for tab  */
