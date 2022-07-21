@@ -256,6 +256,9 @@ body {
 }
 
 
+/* --------------------------------------------------media set ------------------------------------------------ */
+
+/*--------------------------------------------------- mobile------------------------------------  */
 @media screen and (max-width: 688px) {
     .header{
         width: 100%;
@@ -403,4 +406,186 @@ body {
     .social ul li:hover span{
         width: 50%;
     }
+}
+
+/* ---------------------------------------------------------------tab ---------------------------------- */
+@media screen and (min-width:689px) and (max-width: 992px){
+    .header {
+        display: flex;
+        background-color: #020f2a;
+        width: 75%;
+        height: 580px;
+        border-radius: 20px;
+    }
+    
+    .content {
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        color: white;
+        
+    }
+    
+    .content h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    
+    .content p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 3em;
+    }
+    
+    .live-button {
+        color: white;
+        text-decoration: none;
+        border: 4px solid rgba(6, 65, 85, 0.959);
+        border-radius: 5px;
+        background-color: rgb(19, 51, 77);
+        padding: 16px 25px;
+        font-size: 20px;
+        text-align: center;
+    
+    }
+    
+    .fa-circle-arrow-right {
+        padding-top: 20px;
+        padding-left: 5px;
+    }
+    
+    .live-button:hover {
+        background-color: #020f2a;
+        color: white;
+        padding: 8px 25px;
+        border-radius: 10px;
+        border: 3px solid rgba(16, 163, 212, 0.959);
+    }
+    
+    .live-button:hover .fa-circle-arrow-right {
+        transform: translate(20px);
+        transition: 1s;
+    }
+    
+    .banner-img {
+        margin-top: 60px;
+        margin-bottom: 0;
+        padding-top: 5em;
+    }
+    
+    .banner-img img {
+        width: 300px;
+        height: 400px;
+    }
+    .main-sec {
+
+        display: block;
+        width: 80%;
+        height: fit-content;
+        margin: 0;
+        align-items: center;
+        column-gap: 0;
+        margin-bottom: 10%;
+
+    }
+    
+    .nav {
+        background-color: #020f2a;
+        width: 100%;
+        height: 0;
+        border-radius: 10px;
+        margin-right: 0;
+        margin-left: 5em;
+        margin-bottom: 25%;
+    }
+    
+    .main-nav ul {
+        list-style: none;
+        display: flex;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 0;
+        column-gap: 1em;
+        padding: 10px 30px;
+    }
+    
+    .main-nav li {
+        background-color: rgb(19, 51, 77);
+        text-align: center;
+        padding: 15px 10px;
+        border: 3px solid rgba(6, 65, 85, 0.959);
+        border-radius: 5px;
+    }
+    .group a{
+        padding: 0 20px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .blog a{
+        padding: 0 20px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    
+
+    .upcoming-match {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+        margin-left: 20%;
+    }
+    
+    .team-info {
+        border: 1px solid #0a389c;
+        height: 242px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .team-info:hover {
+        border: 3px solid rgba(16, 163, 212, 0.959);
+    
+    }
+    .team {
+        padding: 30px;
+    }
+    
+    .flag {
+        display: flex;
+        padding-left: 10px;
+        column-gap: 10px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .flag img {
+        width: 55px;
+        height: 50px;
+    }
+    
+    .info {
+        text-align: center;
+    }
+    
+    .info h2 {
+        font-size: 20px;
+    }
+    
+    .info h4 {
+        font-size: 15px;
+    
+    }
+    .view {
+        display: flex;
+        margin-bottom: 50px;
+    }
+    .footer-info ul {
+        display: flex;
+        padding-top: 50px;
+        list-style: none;
+        column-gap: 15px;
+        justify-content: center;
+    }   
+    
 }
