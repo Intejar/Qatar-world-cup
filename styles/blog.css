@@ -424,7 +424,7 @@ body {
 /* -----------------------------------------------------------------------------------------------
                                             for tab
   --------------------------------------------------------------------------------------------*/
-@media screen and (min-width:689px) and (max-width: 992px){
+
     @media screen and (min-width:689px) and (max-width: 992px){
         .header {
             display: flex;
@@ -507,30 +507,46 @@ body {
         }
         
         .nav {
-            background-color: #020f2a;
+            background-color: white;
             width: 100%;
-            height: 0;
+            height: 320px;
             border-radius: 10px;
-            margin-right: 0;
             margin-left: 5em;
-            margin-bottom: 25%;
+            margin-top: 10%;
         }
         
         .main-nav ul {
             list-style: none;
             display: flex;
-            grid-template-columns: repeat(1, 1fr);
-            row-gap: 0;
-            column-gap: 1em;
-            padding: 10px 30px;
+            padding: 10px 50px;
+            column-gap: 2em;
+
         }
         
         .main-nav li {
             background-color: rgb(19, 51, 77);
-            text-align: center;
-            padding: 15px 10px;
+            text-align: left;
+            padding: 15px 20px;
             border: 3px solid rgba(6, 65, 85, 0.959);
             border-radius: 5px;
+            width: 100%;
+        }
+        
+        .main-nav li a {
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+            display: inline;
+        }
+        
+        .main-nav li:hover {
+            border: 3px solid rgba(16, 163, 212, 0.959);
+            background-color: white;
+        }
+        
+        .main-nav li:hover a {
+            color: #020f2a;
+            font-weight: 600;
         }
         .group a{
             padding: 0 20px;
@@ -538,8 +554,6 @@ body {
             text-align: center;
         }
         .blog a{
-            padding: 0 20px;
-            margin-left: 30px;
             text-align: center;
         }
         
@@ -547,7 +561,7 @@ body {
         .upcoming-match {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            column-gap: 4em;
+            column-gap: 5em;
             row-gap: 2em;
             margin-left: 30%;
         }
@@ -603,4 +617,4 @@ body {
             column-gap: 15px;
             justify-content: center;
         }
-}
+    }

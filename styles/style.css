@@ -339,40 +339,45 @@ body {
         column-gap: 0;
         margin-bottom: 10%;
     }
-    .nav{
-        width: 100%;
+    .nav {
         background-color: white;
-        margin-right: 0;
-        padding-top: 20px;
-        padding-left: 20px;
-
+        width: 320px;
+        height: 320px;
+        border-radius: 10px;
+        margin-right: 2em;
+        margin-left: 2em;
     }
-
+    
+    .main-nav ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2em;
+        padding: 10px 30px;
+    }
+    
     .main-nav li {
-        background-color: white;
-        text-align: center;
-        padding: 0;
-        border: 0px solid rgba(6, 65, 85, 0.959);
-        border-radius: 0px;
-    }
-    .main-nav li a{
-        color: white;
         background-color: rgb(19, 51, 77);
-        padding: 10px;
+        text-align: center;
+        padding: 15px 10px;
+        border: 3px solid rgba(6, 65, 85, 0.959);
         border-radius: 5px;
-        border: 1px solid rgba(6, 65, 85, 0.959);
-
-
     }
+    
+    .main-nav li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    
     .main-nav li:hover {
-        border: 0px solid rgba(16, 163, 212, 0.959);
+        border: 3px solid rgba(16, 163, 212, 0.959);
         background-color: white;
     }
-    .main-nav li a:hover{
-        color:#020f2a;
-        background-color: white;
-        border: 3px solid rgba(16, 163, 212, 0.959);
-
+    
+    .main-nav li:hover a {
+        color: #020f2a;
+        font-weight: 600;
     }
     .upcoming-match{
         display: grid;
